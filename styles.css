@@ -208,8 +208,11 @@ nav {
 
   nav.active .nav-links {
       display: flex;
+      background-color: white;
   }
-
+  nav.active .nav-links a {
+    color: #4DB6E6;
+}
   .logo img {
       height: 60px;
   }
