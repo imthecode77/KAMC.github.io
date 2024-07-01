@@ -175,71 +175,67 @@ nav {
 }
 @media (max-width: 768px) {
   .nav-links {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background-color: #4db6e6;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    padding: 10px 0;
-    text-align: center;
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #4DB6E6;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      padding: 10px 0;
+      text-align: center;
   }
 
   .nav-links li {
-    margin: 10px 0;
-  }
-
-  .nav-buttons {
-    flex-direction: column;
-    gap: 5px;
-  }
-
-  .donate-btn,
-  .contact-btn {
-    padding: 8px 15px;
-    font-size: 14px;
+      margin: 10px 0;
   }
 
   .burger {
-    display: flex;
+      display: flex;
   }
 
   .burger.toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
+      transform: rotate(-45deg) translate(-5px, 6px);
   }
 
   .burger.toggle .line2 {
-    opacity: 0;
+      opacity: 0;
   }
 
   .burger.toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
+      transform: rotate(45deg) translate(-5px, -6px);
   }
 
   nav.active .nav-links {
-    display: flex;
+      display: flex;
+  }
+
+  .logo img {
+      height: 60px;
+  }
+
+  .donate-btn, .contact-btn {
+      padding: 6px 12px;
+      font-size: 14px;
   }
 }
 
 @media (max-width: 480px) {
   .nav-links {
-    padding: 20px 0;
+      padding: 20px 0;
   }
 
   .nav-links li {
-    margin: 15px 0;
+      margin: 15px 0;
   }
 
-  .nav-buttons {
-    flex-direction: column;
-    gap: 5px;
+  .logo img {
+      height: 50px;
   }
 
-  .donate-btn,
-  .contact-btn {
-    padding: 6px 10px;
-    font-size: 12px;
+  .donate-btn, .contact-btn {
+      padding: 4px 8px;
+      font-size: 13px;
   }
 }
 
